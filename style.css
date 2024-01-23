@@ -1,0 +1,62 @@
+*, .container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: 64px;
+}
+
+.header-image img {
+    width: 100%;
+    z-index: 0;
+}
+
+.search-bar {
+    position: relative;
+    margin: -80px 85px 0 65px;
+    height: 265px;
+    border: 1px solid lightgray;
+    z-index: 20;
+    background-color: white;
+}
+
+.search-type{
+    margin: 0px 110px;
+}
+
+.search-type .col{
+    padding:10px;
+    height:80px;
+}
+
+.search{
+    height:106px;
+}
+
+.content{
+    margin:25px 100px 0 65px;
+}
+
+.service-items{
+    height:80px;
+}
+
+.app{
+    border: 1px solid lightgray;
+    height:250px;
+}
+
+.carousel{
+    height:300px;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev{
+    display: flex;
+}
+
+.questions{
+
+}
