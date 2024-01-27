@@ -21,6 +21,17 @@
     height: 16px;
 }
 
+#navbarSupportedContent .nav-element-seperator {
+    margin: .25rem .25rem;
+    align-self: stretch; 
+    flex: 0;
+    border: none;
+    background: #959EA6; 
+    min-height: 1px;
+    min-width: 1px; 
+    height: 2rem;
+}
+
 .search-bar {
     position: relative;
     margin: -80px 85px 0 65px;
