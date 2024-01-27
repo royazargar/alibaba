@@ -32,6 +32,11 @@
     height: 2rem;
 }
 
+.link-style {
+    text-decoration: none; 
+    color: black;
+}
+
 .search-bar {
     position: relative;
     margin: -80px 85px 0 65px;
