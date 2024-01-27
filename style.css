@@ -8,7 +8,7 @@
 }
 
 .body {
-    font-family: B Nazanin;
+    font-family: B Nazanin, serif;
 }
 
 .header-image img {
@@ -47,7 +47,7 @@
 }
 
 .search-type{
-    margin: 0px 110px;
+    margin: 0 110px;
 }
 
 .search-type .col{
@@ -80,4 +80,16 @@
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev{
     display: flex;
+}
+
+.que-img{
+    margin-left: 12px;
+    border-radius: 50%;
+    background-color: #E8F9FC ;
+    color: #17A2B8;
+    padding: 5px;
+    flex: 0 0 auto;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
 }

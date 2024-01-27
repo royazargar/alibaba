@@ -44,3 +44,19 @@ items.forEach((e)=>{
         next = next.nextElementSibling
     }
 })
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get references to the link and image elements
+    var iconLink = document.getElementById('iconLink');
+    var iconImage = document.getElementById('iconImage');
+
+    // Add a click event listener to the link
+    iconLink.addEventListener('click', function (event) {
+        // Prevent the default behavior of the link (e.g., navigating to a new page)
+        event.preventDefault();
+
+        // Change the src attribute of the image to the new icon's path
+        iconImage.src = `assets/image/box/airplane-engines-black.svg`;
+    });
+});
