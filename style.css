@@ -7,9 +7,18 @@
     height: 64px;
 }
 
+.body {
+    font-family: B Nazanin;
+}
+
 .header-image img {
     width: 100%;
     z-index: 0;
+}
+
+.nav img {
+    width: 16px;
+    height: 16px;
 }
 
 .search-bar {
