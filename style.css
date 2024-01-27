@@ -7,9 +7,34 @@
     height: 64px;
 }
 
+.body {
+    font-family: B Nazanin;
+}
+
 .header-image img {
     width: 100%;
     z-index: 0;
+}
+
+.nav img {
+    width: 16px;
+    height: 16px;
+}
+
+#navbarSupportedContent .nav-element-seperator {
+    margin: .25rem .25rem;
+    align-self: stretch; 
+    flex: 0;
+    border: none;
+    background: #959EA6; 
+    min-height: 1px;
+    min-width: 1px; 
+    height: 2rem;
+}
+
+.link-style {
+    text-decoration: none; 
+    color: black;
 }
 
 .search-bar {
@@ -55,8 +80,4 @@
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev{
     display: flex;
-}
-
-.questions{
-
 }

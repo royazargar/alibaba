@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/fontawesome/all.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
 <div class="container-fluid">
     <div class="navbar shadow-sm">
         <nav class="navbar navbar-expand-lg vw-100">
@@ -35,7 +35,7 @@
                             <li><a class="dropdown-item" href="#">اتوبوس</a></li>
                         </ul>
                     </li>
-                    <span>|</span>
+                    <li class="nav-element-seperator"></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                            aria-expanded="false">
@@ -46,11 +46,11 @@
                             <li><a class="dropdown-item" href="#">ویلا و اقامتگاه</a></li>
                         </ul>
                     </li>
-                    <span>|</span>
+                    <li class="nav-element-seperator"></li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">تور</a>
                     </li>
-                    <span>|</span>
+                    <li class="nav-element-seperator"></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                            aria-expanded="false">
@@ -63,16 +63,16 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right img">
                     <li class="nav-item">
                         <a class="nav-link" href="#"><img src="assets/image/nav/question-circle.svg">مرکز پشتیبانی
                             آنلاین</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="assets/image/nav/suitcase.svg">سفرهای من</a>
+                        <a class="nav-link" href="#"><img src="assets/image/nav/suitcase.svg"> سفرهای من </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="assets/image/nav/pin-map.svg">ورود یا ثبت نام</a>
+                        <a class="nav-link" href="#"><img src="assets/image/nav/user-regular.svg"> ورود یا ثبت نام </a>
                     </li>
                 </ul>
             </div>
@@ -85,49 +85,49 @@
     <div class="search-bar rounded-2">
         <div class="row search-type text-center">
             <div class="col">
-                <a class="active" href="http://">
-                    <img width="36px" height="36px" src="assets/image/box/airplane.svg">
+                <a id="iconLink" href="http://">
+                    <img width="36px" height="36px" src="assets/image/box/airplane-engines-blue.svg" id="iconImage">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">پرواز داخلی</span>
                 </a>
             </div>
             <div class="col">
-                <a href="http://">
-                    <img width="36px" height="36px" src="assets/image/box/airplane-engines.svg">
+                <a class="link-style" href="http://">
+                    <img width="36px" height="36px" src="assets/image/box/airplane-engines-black.svg">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">پرواز خارجی</span>
                 </a>
             </div>
             <div class="col">
-                <a href="http://">
+                <a class="link-style" href="http://">
                     <img width="36px" height="36px" src="assets/image/box/train-front.svg">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">قطار</span>
                 </a>
             </div>
             <div class="col">
-                <a href="http://">
+                <a class="link-style" href="http://">
                     <img width="36px" height="36px" src="assets/image/box/bus-front.svg">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">اتوبوس</span>
                 </a>
             </div>
             <div class="col">
-                <a href="http://">
+                <a class="link-style" href="http://">
                     <img width="36px" height="36px" src="assets/image/box/backpack3.svg">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">تور</span>
                 </a>
             </div>
             <div class="col">
-                <a href="http://">
+                <a class="link-style" href="http://">
                     <img width="36px" height="36px" src="assets/image/box/buildings.svg">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">هتل</span>
                 </a>
             </div>
             <div class="col">
-                <a href="http://">
+                <a class="link-style" href="http://">
                     <img width="36px" height="36px" src="assets/image/box/house-door.svg">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">ویلا و اقامتگاه</span>
@@ -195,7 +195,7 @@
             </div>
         </div>
     </div>
-    <div class="carousel content rounded-2">
+    <div class="carousel content rounded-2" style="height: auto; margin-bottom: 2rem;">
         <div class="row">
             <div class="container text-center my-3">
                 <div class="row mx-auto my-auto justify-content-center">
@@ -250,10 +250,10 @@
     <div class="app content rounded-2">
         <div class="card mb-3">
             <div class="row g-0">
-                <div class="col-md-3">
-                    <img src="assets/image/app/qrcode-56155e39.png" class="img-fluid rounded-start" alt="...">
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <img src="assets/image/app/qrcode-56155e39.png" class="mx-auto d-block" alt="...">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
                     <div class="card-body">
                         <h5 class="card-title">اپلیکیشن علی بابا</h5>
                         <p class="card-text">سریع تر و مطمئن تر به سفر بروید</p>
@@ -262,14 +262,13 @@
                                 src="assets/image/app/android.svg"> قابلیت نصب روی Android و iOS</small></p>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <img width="334" height="294" src="assets/image/app/app-mobile@4x-e3e3b7dc.webp"
-                         class="img-fluid rounded-start" alt="...">
+                <div class="col-md-5 d-flex justify-content-center align-items-center">
+                    <img width="334" height="294" src="assets/image/app/app-mobile@4x-e3e3b7dc.webp" class="img-fluid rounded-start" alt="...">
                 </div>
             </div>
         </div>
     </div>
-    <div class="faq content">
+    <div class="faq content" style="margin-top: 5%;">
         پرسش های شما
     </div>
     <div class="row content rounded-2">
@@ -519,7 +518,7 @@
                     <a href="http://">
                     <img height="69" width="69" src="assets/image/footer/enamad.png">
                 </a>
-                </li>
+                </li> 
                 <li class="col">
                     <a href="http://">
                     <img height="69" width="69" src="assets/image/footer/passenger-rights-48368f81.svg">
@@ -587,6 +586,27 @@
 </div>
 
 <script src="assets/css/bootstrap.bundle.min.js"></script>
+<script src="assets/css/bootstrap.min.js"></script>
 <script src="assets/js/javaScript.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Get references to the link and image elements
+        var iconLink = document.getElementById('iconLink');
+        var iconImage = document.getElementById('iconImage');
+
+        // Add a click event listener to the link
+        iconLink.addEventListener('click', function (event) {
+            // Prevent the default behavior of the link (e.g., navigating to a new page)
+            event.preventDefault();
+
+            // Change the src attribute of the image to the new icon's path
+            iconImage.src = `assets/image/box/airplane-engines-black.svg`;
+        });
+    });
+</script>
 </body>
 </html>

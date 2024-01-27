@@ -6,3 +6,11 @@
     font-weight: 300;
     font-style: normal
 }
+
+@font-face {
+    font-family: BNazanin;
+    src: url( assets/fonts/BNazanin.eot);
+    src: url( assets/fonts/BNazanin.eot?#iefix) format("embedded-opentype"), url( assets/fonts/BNazanin.woff) format("woff"),url( assets/fonts/BNazanin.ttf) format("truetype");
+    font-weight: 300;
+    font-style: normal
+}
