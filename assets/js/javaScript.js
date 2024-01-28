@@ -22,8 +22,3 @@ document.addEventListener('DOMContentLoaded', function() {
         iconImage.src = `assets/image/box/airplane-engines-black.svg`;
     });
 });
-
-$('.datepicker').datepicker({
-    format: 'yyyy/mm/dd',
-    autoclose: true
-});
