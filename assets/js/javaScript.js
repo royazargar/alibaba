@@ -22,3 +22,21 @@ document.addEventListener('DOMContentLoaded', function() {
         iconImage.src = `assets/image/box/airplane-engines-black.svg`;
     });
 });
+
+var lastScrollTop = 0;
+
+window.addEventListener("scroll", function() {
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    if (scrollTop > lastScrollTop) {
+        // اسکرول به پایین: مخفی کردن نوبار
+        document.querySelector('.navbar').classList.remove('navbar-visible');
+        document.querySelector('.navbar').classList.add('navbar-hidden');
+    } else {
+        // اسکرول به بالا: نمایش نوبار
+        document.querySelector('.navbar').classList.remove('navbar-hidden');
+        document.querySelector('.navbar').classList.add('navbar-visible');
+    }
+
+    lastScrollTop = scrollTop;
+});
