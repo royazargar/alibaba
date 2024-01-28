@@ -164,5 +164,6 @@
     width: 69px;
     height: 69px;
     border: 1px solid lightgray;
+    border-radius: 1rem;
     padding: 0.25rem;
 }
