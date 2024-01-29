@@ -139,7 +139,20 @@
 
 .app{
     border: 1px solid lightgray;
-    height:250px;
+    height:296px;
+}
+
+@media (max-width: 768px) {
+    .app {
+        margin:0 5px;
+        height: 190px;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq , .faq-body {
+        margin:0;
+    }
 }
 
 .que-img{
