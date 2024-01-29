@@ -69,6 +69,19 @@
     height: 36px;
 }
 
+@media (max-width: 768px) {
+    .search-bar {
+        margin:10px 5px 0 5px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 576px) {
+    .search-bar {
+        width: 100%;
+    }
+}
+
 #rl-img{
     width: 16px;
     height: 16px;
@@ -88,14 +101,12 @@
 }
 
 .content{
-    margin:25px 100px 0 65px;
+    margin:25px 80px 0 65px;
 }
 
 .service-items{
     height:80px;
     border: 1px solid lightgray;
-    align-content: center;
-    margin: 0 -10px 10px 0;
 }
 
 .services img{
@@ -108,20 +119,27 @@
     text-decoration: none;
 }
 
-.app{
-    border: 1px solid lightgray;
-    height:250px;
-}
-
-.carousel{
-    height: auto;
-    margin-bottom: 2rem;
+@media (max-width: 768px) {
+    .services {
+        margin:10px 20px 0 10px;
+    }
 }
 
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
 .carousel-inner .carousel-item-prev{
     display: flex;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        margin:0 -5px 0 -10px;
+    }
+}
+
+.app{
+    border: 1px solid lightgray;
+    height:250px;
 }
 
 .que-img{

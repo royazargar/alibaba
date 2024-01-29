@@ -16,7 +16,7 @@
 <div class="container-fluid">
     <div class="navbar shadow-sm">
         <nav class="navbar navbar-expand-lg vw-98">
-            <a class="navbar-brand col-md-2" href="#">
+            <a class="navbar-brand col-md-2 ms-3" href="#">
                 <img alt="" height="48" width="160" src="assets/image/logo.svg">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,7 +84,7 @@
     <div class="search-bar rounded-2">
         <div class="row search-type text-center">
             <div class="col">
-                <a id="iconLink" href="#">
+                <a id="iconLink" href="#" class="text-decoration-none">
                     <img alt="" src="assets/image/box/airplane-engines-blue.svg" id="iconImage" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">پرواز داخلی</span>
@@ -134,39 +134,40 @@
             </div>
         </div>
         <hr>
-        <div class="row m-2 mt-4 pt-2 ps-4 search">
+        <div class="m-2 pt-2 ps-4 search">
             <div class="card-body">
                 <label for="">
-                    <select class="rounded-pill" name="" id="">
-                        <option value="">رفت و برگشت</option>
+                    <select class="form-select rounded-pill mb-2" name="" id="">
                         <option value="">یک طرفه</option>
+                        <option value="">رفت و برگشت</option>
                     </select>
                 </label>
             </div>
             <div class="card-body row">
-                <div class="input-group mb-3 col">
+                <div class="input-group mb-3 col-md">
                     <input type="text" class="form-control" placeholder="مبدا(شهر)" aria-label="مبدا(شهر)">
                     <span class="input-group-text rounded-circle">
-                        <img alt="" id="rl-img" src="assets/image/box/right-left-solid.svg">
-                    </span>
+            <img alt="" id="rl-img" src="assets/image/box/right-left-solid.svg" class="img-fluid">
+        </span>
                     <input type="text" class="form-control" placeholder="مقصد(شهر)" aria-label="مقصد(شهر)">
                 </div>
-                <div class="input-group mb-3 col">
+                <div class="input-group mb-3 col-md">
                     <input type="text" class="form-control" placeholder="تاریخ رفت" aria-label="تاریخ رفت">
                     <input type="text" class="form-control" placeholder="تاریخ برگشت" aria-label="تاریخ برگشت">
                 </div>
-                <div class="input-group mb-3 col">
+                <div class="input-group mb-3 col-md">
                     <input type="text" class="form-control" placeholder="مسافران" aria-label="مسافران">
-                </div>
-                <div class="input-group mb-3 col">
-                    <button class="form-control bg-warning">جستجو</button>
+                    <input class="btn btn-warning ms-2" value="جستجو" aria-label="جستجو">
                 </div>
             </div>
+
         </div>
     </div>
     <div class="services content">
-        <div class="row"><h4>سایر خدمات علی بابا</h4></div>
-        <div class="row service-items text-center rounded-2">
+        <div class="row">
+            <h4>سایر خدمات علی بابا</h4>
+        </div>
+        <div class="row service-items align-content-center text-center rounded-2 mx-md-0 my-md-0">
             <div class="col">
                 <a href="" class="col">
                 <span>
@@ -198,14 +199,14 @@
             </div>
         </div>
     </div>
-    <div class="carousel content ">
+    <div class="carousel content h-auto">
         <div class="row">
             <div class="container text-center my-3">
                 <div class="row mx-auto my-auto justify-content-center">
                     <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-12">
                                     <div class="card">
                                         <div class="card-img">
                                             <img class="img-fluid rounded" alt="" src="assets/image/sayereKhadamat/Safar_Card_Cardview_Banner_Desktop_02_09_22_ed374215f4.png">
@@ -214,7 +215,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-12">
                                     <div class="card">
                                         <div class="card-img">
                                             <img class="img-fluid rounded" alt="" src="assets/image/sayereKhadamat/Golden_Palace_Mashhad_Cardview_Banner_Desktop_02_09_04_2bef44c72c.png">
@@ -223,7 +224,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-12">
                                     <div class="card">
                                         <div class="card-img">
                                             <img class="img-fluid rounded" alt="" src="assets/image/sayereKhadamat/Produckt_Marketing_Telephone_Sales_Cardview_Banner_Desktop_02_06_26_fb7b2fa3b6.png">
@@ -232,7 +233,7 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-12">
                                     <div class="card">
                                         <div class="card-img">
                                             <img class="img-fluid rounded" alt="" src="assets/image/sayereKhadamat/Espinas_Hotel_Campaign_Cardview_Banner_Desktop_02_06_19_361dd3ff7e.jpg">
@@ -394,7 +395,7 @@
             </div>
         </div>
     </div>
-    <div class="paragraphs content">
+    <div class="paragraphs content mb-5">
         <div>
             <h4>بلیط هواپیما</h4>
             <div class="row">
@@ -433,30 +434,31 @@
             <h5>علی‌بابا: رتبه یک خرید اینترنتی بلیط سفر</h5>
             <p>علی‌بابا طی این سالها، اعتبار زیادی نزد مشتریان خود کسب کرده است. طبق نظرسنجی، 97.2 درصد از مشتریان علی‌بابا از خدمات این سامانه راضی بوده‌اند و استفاده از آن را به دوستان و آشنایان خود پیشنهاد داده‌اند. سرعت سادگی خرید اینترنتی بلیط هواپیما، اعتبار و خوشنامی، امکان استرداد آنلاین بلیط هواپیما و پشتیبانی 24 ساعته در تمام روزهای هفته، رتبه یک فروش بلیط را از آنِ علی‌بابا کرده است.</p>
             <p>شما با رزرو بلیط هواپیما در علی‌بابا، از سفری راحت و بی‌دردسر مطمئن خواهید بود.</p>
+            <br>
         </div>
     </div>
     <hr>
-    <div class="adv content container">
+    <div class="adv adv-content container">
         <ul class="row adv-list">
             <li class="col-12 col-md-4 adv-item">
                 <img alt="" src="assets/image/adv/img.png">
                 <div>
                     <h5>رتبه یک سفر</h5>
-                    <span>معتبرترین عرضه‌کننده محصولات گردشگری در ایران</span>
+                    <span class="d-none d-md-block">معتبرترین عرضه‌کننده محصولات گردشگری در ایران</span>
                 </div>
             </li>
             <li class="col-12 col-md-4 adv-item">
                 <img alt="" src="assets/image/adv/img_1.png">
                 <div>
                     <h5>همسفر هر سفر</h5>
-                    <span>ارائه تمامی خدمات سفر (پرواز، قطار، اتوبوس، هتل و تور)</span>
+                    <span class="d-none d-md-block">ارائه تمامی خدمات سفر (پرواز، قطار، اتوبوس، هتل و تور)</span>
                 </div>
             </li>
             <li class="col-12 col-md-4 adv-item">
                 <img alt="" src="assets/image/adv/img_2.png">
                 <div>
                     <h5>همسفر همه لحظات سفر</h5>
-                    <span>پشتیبانی و همراهی ۲۴ ساعته در تمامی مراحل سفر</span>
+                    <span class="d-none d-md-block">پشتیبانی و همراهی ۲۴ ساعته در تمامی مراحل سفر</span>
                 </div>
             </li>
         </ul>
@@ -582,8 +584,8 @@
     </div>
 </div>
 <script src="assets/js/popper.min.js"></script>
-<script src="assets/css/bootstrap.bundle.min.js"></script>
-<script src="assets/css/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/javaScript.js"></script>
 <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
 </body>
