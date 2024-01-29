@@ -16,13 +16,13 @@
 <div class="container-fluid">
     <div class="navbar shadow-sm">
         <nav class="navbar navbar-expand-lg vw-98">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand col-md-2" href="#">
                 <img alt="" height="48" width="160" src="assets/image/logo.svg">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse col-md-10" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -64,7 +64,7 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right img">
+                <ul class="nav navbar-nav img col-5">
                     <li class="nav-item">
                         <a class="nav-link" href="#"><img alt="" src="assets/image/nav/icons8-question-mark-24.png"> مرکز پشتیبانی آنلاین</a>
                     </li>
@@ -85,49 +85,49 @@
         <div class="row search-type text-center">
             <div class="col">
                 <a id="iconLink" href="#">
-                    <img alt="" width="36px" height="36px" src="assets/image/box/airplane-engines-blue.svg" id="iconImage">
+                    <img alt="" src="assets/image/box/airplane-engines-blue.svg" id="iconImage" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">پرواز داخلی</span>
                 </a>
             </div>
             <div class="col">
                 <a class="link-style" href="#">
-                    <img alt="" width="36px" height="36px" src="assets/image/box/airplane-engines-black.svg">
+                    <img alt="" src="assets/image/box/airplane-engines-black.svg" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">پرواز خارجی</span>
                 </a>
             </div>
             <div class="col">
                 <a class="link-style" href="#">
-                    <img alt="" width="36px" height="36px" src="assets/image/box/train-front.svg">
+                    <img alt="" src="assets/image/box/train-front.svg" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">قطار</span>
                 </a>
             </div>
             <div class="col">
                 <a class="link-style" href="#">
-                    <img alt="" width="36px" height="36px" src="assets/image/box/bus-front.svg">
+                    <img alt="" src="assets/image/box/bus-front.svg" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">اتوبوس</span>
                 </a>
             </div>
             <div class="col">
                 <a class="link-style" href="#">
-                    <img alt="" width="36px" height="36px" src="assets/image/box/backpack3.svg">
+                    <img alt="" src="assets/image/box/backpack3.svg" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">تور</span>
                 </a>
             </div>
             <div class="col">
                 <a class="link-style" href="#">
-                    <img alt="" width="36px" height="36px" src="assets/image/box/buildings.svg">
+                    <img alt="" src="assets/image/box/buildings.svg" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">هتل</span>
                 </a>
             </div>
             <div class="col">
                 <a class="link-style" href="#">
-                    <img alt="" width="36px" height="36px" src="assets/image/box/house-door.svg">
+                    <img alt="" src="assets/image/box/house-door.svg" class="img-fluid">
                     <br>
                     <span class="text-4 text-center block min-w-[6rem]">ویلا و اقامتگاه</span>
                 </a>
@@ -146,10 +146,8 @@
             <div class="card-body row">
                 <div class="input-group mb-3 col">
                     <input type="text" class="form-control" placeholder="مبدا(شهر)" aria-label="مبدا(شهر)">
-                    <span class="input-group-text">
-                        <button class="rounded-circle">
-                        <img alt="" src="assets/image/box/arrow-left-right.svg">
-                    </button>
+                    <span class="input-group-text rounded-circle">
+                        <img id="rl-img" src="assets/image/box/right-left-solid.svg">
                     </span>
                     <input type="text" class="form-control" placeholder="مقصد(شهر)" aria-label="مقصد(شهر)">
                 </div>
@@ -519,7 +517,7 @@
                     <a href="#">
                     <img class="footer-qr-img" alt="" src="assets/image/footer/enamad.png">
                 </a>
-                </li> 
+                </li>
                 <li class="col">
                     <a href="#">
                     <img class="footer-qr-img" alt="" src="assets/image/footer/passenger-rights-48368f81.svg">
@@ -582,8 +580,6 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
 </div>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/css/bootstrap.bundle.min.js"></script>

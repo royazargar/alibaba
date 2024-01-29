@@ -44,10 +44,10 @@
     align-self: stretch; 
     flex: 0;
     border: none;
-    background: #959EA6; 
+    background: lightgray;
     min-height: 1px;
     min-width: 1px; 
-    height: 2rem;
+    height: 1.5rem;
 }
 
 .link-style {
@@ -62,6 +62,16 @@
     border: 1px solid lightgray;
     z-index: 20;
     background-color: white;
+}
+
+.search-bar img{
+    width: 36px;
+    height: 36px;
+}
+
+#rl-img{
+    width: 16px;
+    height: 16px;
 }
 
 .search-type{
